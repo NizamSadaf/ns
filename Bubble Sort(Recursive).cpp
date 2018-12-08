@@ -6,15 +6,15 @@ void bubblesort(int a[],int n)
 
     for(int i=0;i<n-1;i++)
     {
-        if(a[i]>a[i+1]) //Check korlam j kono element boro naki thakle swap hobe
+        if(a[i]>a[i+1]) //Swapping
         {
             int temp;
             temp=a[i];
             a[i]=a[i+1];
             a[i+1]=temp;
         }
-     }//swap hoar por array update hobe
-     bubblesort(a,n-1);// jehetu ekta element kore swap tai oi element guli ar swap erdorkr hobena tai n-1 hoise element
+     }
+     bubblesort(a,n-1);
 }
 int main()
 {
