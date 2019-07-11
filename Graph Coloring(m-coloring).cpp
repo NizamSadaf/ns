@@ -49,7 +49,7 @@ int main() {
    cout<<"Enter Number of colors:";
    cin>>colors;
    cout<<"Enter Number of vertex:";
-   cin>>V;// Number of colors
+   cin>>V;
    cout<<"Enter 1 for edge or 0 for no edge between two vertex:";
    for(int i=0;i<V;i++)
     for(int j=0;j<V;j++)
