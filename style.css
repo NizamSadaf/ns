@@ -1,0 +1,49 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-color: chocolate;
+}
+.container
+{
+    position: absolute;
+    top: 30%;
+    left:10%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: brown;
+    padding: 50px 0;
+
+    
+}
+.myForm > input
+{
+    outline: none;
+    text-decoration: none;
+    width: 800px;
+}
+
+@media screen and (max-width:740px) {
+   body
+   {
+       overflow: hidden;
+   }
+    .container
+   {
+       left: 10%;
+       padding: 0 0;
+   }
+   .myForm
+   {
+       padding-top: 50px;
+   }
+}
+
